@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Pemesanan Gelas</title>
+        <style>
+            .Question {
+                float: left;
+            }
+            .Answer {
+                margin-left: 120px;
+                width: 75%;
+            }
+            .Line {
+                margin-top: 10px;
+            }
+            .Simpan {
+                margin-top: 30px;
+                margin-left: 50px;
+            }
+            .Pesan {
+                margin-top: 20px;
+                margin-left: 130px;
+            }
+            fieldset {
+                margin-right: 60%;
+            }
+        </style>
+    </head>
+    
+    <body>
+
+        <fieldset>
+
+            <h1 style="text-align: center;">Pemesanan  Gelas</h1>
+
+            <h2>Pilihan Gelas</h2>
+            <!--Radio-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Ukuran</label>
+                </div>
+                <div class="Answer">
+                    <input type="radio" name="ukuran" value="" /> 90 ml
+                    <input type="radio" name="ukuran" value="" /> 130 ml
+                    <input type="radio" name="ukuran" value="" /> 160 ml
+                </div>
+            </div> 
+
+            <!--Radio-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Warna</label>
+                </div>
+                <div class="Answer">
+                    <input type="radio" name="warna" value="" /> Merah
+                    <input type="radio" name="warna" value="" /> Kuning
+                    <input type="radio" name="warna" value="" /> Hijau
+                    <input type="radio" name="warna" value="" /> Biru
+                </div>
+            </div> 
+
+            <!--CheckBox-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Tambahan</label>
+                </div>
+                <div class="Answer">
+                    <input type="checkbox" name="ukuran" value="" /> Piring Gelas
+                    <input type="checkbox" name="ukuran" value="" /> Tutup Gelas
+                    <input type="checkbox" name="ukuran" value="" /> Sendok Teh
+                </div>
+            </div> 
+            
+            <!--Select-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Desain</label>
+                </div>
+                <div class="Answer">
+                    <select name="">
+                        <option value="">--Pilih--</option>
+                        <option value="">Desain 1</option>
+                        <option value="">Desain 2</option>
+                        <option value="">Desain 3</option>
+                    </select>
+                </div>
+            </div> 
+
+            <!--number-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Jumlah</label>
+                </div>
+                <div class="Answer">
+                    <input type="number" name="" value="" size="30" max="20">
+                </div>
+            </div> 
+
+
+            <h2>Pengiriman</h2>
+            <!--input text-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Nama Lengkap</label>
+                </div>
+                <div class="Answer">
+                    <input type="text" name="" value="" size="30">
+                </div>
+            </div>
+
+            <!--input text-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>No. Telp</label>
+                </div>
+                <div class="Answer">
+                    <input type="text" name="" value="" size="30">
+                </div>
+            </div>
+
+            <!--Email-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Email</label>
+                </div>
+                <div class="Answer">
+                    <input id="email" type="email" name="" value="" size="30">
+                </div>
+            </div>
+
+            <!--TextArea-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Alamat</label>
+                </div>
+                <div class="Answer">
+                    <textarea name="" rows="4" cols="32"></textarea>
+                </div>
+            </div>
+
+            <!--file-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Foto Alamat</label>
+                </div>
+                <div class="Answer">
+                    <input type="file" name="" value="">
+                </div>
+            </div>
+
+            <!--TextArea-->
+            <div class="Line">       
+                <div class="Question">
+                    <label>Catatan</label>
+                </div>
+                <div class="Answer">
+                    <textarea name="" rows="4" cols="32"></textarea>
+                </div>
+            </div>
+
+            <!--Submit-->
+            <div class="Pesan">
+                <input type="submit" value="Pesan">
+            </div>
+
+        </fieldset>
+    </body>
+</html>
